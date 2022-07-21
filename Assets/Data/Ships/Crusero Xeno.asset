@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa2cf99c7d7aad428259be7bea616e7, type: 3}
+  m_Name: Crusero Xeno
+  m_EditorClassIdentifier: 
+  model_Prefab: {fileID: 3493533608080539826, guid: 340bc2943bdd6d54789d76d5efb91c9e, type: 3}
+  shipClass: 4
+  PointValue: 450
+  names:
+  - Ra
+  - Ipa
+  - Qetzal
+  - Garfield
+  moveRange: 7
+  hullPoints: 8
+  armorPoints: 3
+  evasionPoints: 7
+  AttackPoints: 6
+  weaponsData:
+  - {fileID: 11400000, guid: 6e877e50d14206f408a6311803c215ed, type: 2}
+  modulosData:
+  - {fileID: 11400000, guid: 124e47dd9661dc24cad3eaa337ed0178, type: 2}
+  destroy_VFX: {fileID: 100006, guid: 1b0efe600cd9bcd48ae21ef3dffffff8, type: 3}
+  SFX:
+    selected: {fileID: 0}
+    destroyed: {fileID: 8300000, guid: 8cc46458a9ee90843a69756610bd5eb8, type: 3}
+    attackOrder: {fileID: 0}
+    takingDamage: {fileID: 0}
+    shieldsHolding: {fileID: 0}
+    shieldDamage: {fileID: 0}

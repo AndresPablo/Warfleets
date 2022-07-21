@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa2cf99c7d7aad428259be7bea616e7, type: 3}
+  m_Name: Fragata Humana
+  m_EditorClassIdentifier: 
+  model_Prefab: {fileID: 4112513574796726207, guid: 6f995437331beb840b9ff685ccd4a149, type: 3}
+  shipClass: 2
+  PointValue: 30
+  names:
+  - Prometeo
+  - Zeus
+  - Hera
+  - Ix
+  - Atlas
+  moveRange: 9
+  hullPoints: 4
+  armorPoints: 6
+  evasionPoints: 3
+  AttackPoints: 8
+  weaponsData:
+  - {fileID: 11400000, guid: 240ce45b0b94d95409d8a2b9ef80a580, type: 2}
+  modulosData:
+  - {fileID: 11400000, guid: c21eb7a70143719418d2420a330b0880, type: 2}
+  destroy_VFX: {fileID: 100006, guid: 1b0efe600cd9bcd48ae21ef3dffffff8, type: 3}
+  SFX:
+    selected: {fileID: 0}
+    destroyed: {fileID: 8300000, guid: dda8d5c65e45a924299de693252fdd8d, type: 3}
+    attackOrder: {fileID: 0}
+    takingDamage: {fileID: 0}
+    shieldsHolding: {fileID: 0}
+    shieldDamage: {fileID: 0}

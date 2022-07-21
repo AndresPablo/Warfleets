@@ -1,0 +1,27 @@
+# 
+# Wavefront material file
+# Converted by 3D Exploration 1.71
+# XDimension Software, LLC
+# http://www.xdsoft.com/explorer/
+# 
+newmtl Material_1
+	 Ka 0.2 0.2 0.2
+	 Kd 0.203922 0.203922 0.203922
+	 Ks 0.614 0.614 0.614
+	 illum 2
+	 Ns 2
+	 map_Kd UV_KDY_Republic.jpg
+newmtl Material_3
+	 Ka 0.2 0.2 0.2
+	 Kd 0.203922 0.203922 0.203922
+	 Ks 0.614 0.614 0.614
+	 illum 2
+	 Ns 2
+	 map_Kd UV_KDY_Republic.jpg
+newmtl Material_4
+	 Ka 0.2 0.2 0.2
+	 Kd 0.360784 0.360784 0.360784
+	 Ks 0.611765 0.611765 0.611765
+	 illum 2
+	 Ns 2
+	 map_Kd bluethruster.jpg
